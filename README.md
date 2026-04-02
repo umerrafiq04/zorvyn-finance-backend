@@ -23,7 +23,7 @@ This project is a backend system for managing financial records with role-based 
 - Viewer is restricted from modifying data
 
   
-## 🛠 Tech Stack
+##  Tech Stack
 
 * FastAPI
 * SQLite
@@ -42,7 +42,7 @@ This project is a backend system for managing financial records with role-based 
 
 ---
 
-## 📊 API Endpoints
+## API Endpoints
 
 ### Users
 
