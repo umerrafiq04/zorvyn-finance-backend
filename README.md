@@ -1,12 +1,12 @@
 # Finance Backend API (Zorvyn Assignment)
 
-## 🚀 Overview
+## Overview
 
 This project is a backend system for managing financial records with role-based access control. It allows users to create, manage, and analyze financial data based on their roles.
 
 ---
 
-## 🧠 Features
+## Features
 
 * User Management (Admin, Analyst, Viewer)
 * Financial Records (CRUD operations)
@@ -16,7 +16,13 @@ This project is a backend system for managing financial records with role-based 
 * Filtering and Query Support
 
 ---
+##  Demo
 
+- Admin can create/delete records
+- Analyst can view summary
+- Viewer is restricted from modifying data
+
+  
 ## 🛠 Tech Stack
 
 * FastAPI
@@ -26,7 +32,7 @@ This project is a backend system for managing financial records with role-based 
 
 ---
 
-## 🔐 Roles & Permissions
+##  Roles & Permissions
 
 | Role    | Permissions            |
 | ------- | ---------------------- |
@@ -55,7 +61,7 @@ This project is a backend system for managing financial records with role-based 
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 uvicorn main:app --reload
@@ -63,7 +69,7 @@ uvicorn main:app --reload
 
 ---
 
-## 📌 Notes
+##  Notes
 
 * Role-based access is implemented using FastAPI dependencies
 * SQLite is used for simplicity
@@ -71,6 +77,6 @@ uvicorn main:app --reload
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Umer Rafiq
